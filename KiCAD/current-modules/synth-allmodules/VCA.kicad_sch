@@ -2433,6 +2433,106 @@
 		)
 		(uuid "1950164e-5e09-4d50-b57e-3bd51b689628")
 	)
+	(text "OS trim"
+		(exclude_from_sim no)
+		(at 67.564 58.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a5ccc28-94b5-4afe-a752-d7cc188168bb")
+	)
+	(text "Initial"
+		(exclude_from_sim no)
+		(at 53.848 119.634 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7dbcf9fb-cd28-4e7e-aaec-2ecfc9401131")
+	)
+	(text "Audio 2"
+		(exclude_from_sim no)
+		(at 19.304 50.038 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86bebeab-90f2-4c46-be3a-7acec9ed4998")
+	)
+	(text "Audio 3"
+		(exclude_from_sim no)
+		(at 19.558 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9121c645-8835-40b4-8149-24a1a4fa6f6b")
+	)
+	(text "Max out"
+		(exclude_from_sim no)
+		(at 137.668 42.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9a77ce04-a48b-48b3-897b-7c3ed3f354bb")
+	)
+	(text "Audio 1"
+		(exclude_from_sim no)
+		(at 20.32 23.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ca8a3e4-823b-48e9-974f-12d9cc4569b1")
+	)
+	(text "Atten"
+		(exclude_from_sim no)
+		(at 31.242 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3e058c1-a25d-4bf7-b61b-af0aec44088b")
+	)
+	(text "Envelope"
+		(exclude_from_sim no)
+		(at 20.32 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc42c3c5-f47d-447d-972c-9b072f7031cb")
+	)
+	(text "Variable CV"
+		(exclude_from_sim no)
+		(at 20.828 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d7fd298a-87f7-4ff3-8016-c68d6101e62b")
+	)
+	(text "Line out"
+		(exclude_from_sim no)
+		(at 141.224 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f3307ac6-a071-4a0b-8624-53094571c661")
+	)
 	(junction
 		(at 152.4 105.41)
 		(diameter 0)
