@@ -416,6 +416,240 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
+		(at 254 85.09 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01d83e3a-7470-4b47-b931-8c01cd994a43")
+		(property "Reference" "U13"
+			(at 252.73 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL074"
+			(at 252.73 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 255.27 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 254 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "d8330185-ae86-4819-816a-d6627e72003c")
+		)
+		(pin "4"
+			(uuid "2b54b019-1c17-48fc-ad34-1788aebbcc11")
+		)
+		(pin "14"
+			(uuid "5a35f01c-89fe-4ad6-80a3-d579e3532b67")
+		)
+		(pin "13"
+			(uuid "e13071ba-9baa-445e-bd06-6a403146f8d3")
+		)
+		(pin "12"
+			(uuid "93141f30-d6c5-4115-8d93-dda73699cf33")
+		)
+		(pin "6"
+			(uuid "8c692e2c-03b2-4c63-9bdc-0c1b4db02cf6")
+		)
+		(pin "7"
+			(uuid "bd34afb1-e83c-4134-b33d-77e5e1543fc4")
+		)
+		(pin "9"
+			(uuid "b0746f6b-e074-4c75-883b-926ea64f342f")
+		)
+		(pin "10"
+			(uuid "2ac777ad-77e1-403f-a781-8cede80c30bf")
+		)
+		(pin "5"
+			(uuid "fd667755-323e-4fd4-888a-926f6f27981a")
+		)
+		(pin "3"
+			(uuid "7288aff1-ed9f-4eee-b105-a3dd5884d80c")
+		)
+		(pin "8"
+			(uuid "448355d6-81e1-4234-9a82-80d390e722cc")
+		)
+		(pin "2"
+			(uuid "a019cefa-a6d1-4bc0-b03c-a2a97b7fb580")
+		)
+		(pin "1"
+			(uuid "3d75d117-18cc-45af-a8b8-d99ac1395dce")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "U13")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 234.95 100.33 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a73e4e2-d418-4fea-bd54-78cb3e35182e")
+		(property "Reference" "U13"
+			(at 234.95 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 234.95 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 236.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 234.95 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "d8330185-ae86-4819-816a-d6627e72003c")
+		)
+		(pin "4"
+			(uuid "2b54b019-1c17-48fc-ad34-1788aebbcc11")
+		)
+		(pin "14"
+			(uuid "5a35f01c-89fe-4ad6-80a3-d579e3532b67")
+		)
+		(pin "13"
+			(uuid "e13071ba-9baa-445e-bd06-6a403146f8d3")
+		)
+		(pin "12"
+			(uuid "93141f30-d6c5-4115-8d93-dda73699cf33")
+		)
+		(pin "6"
+			(uuid "8c692e2c-03b2-4c63-9bdc-0c1b4db02cf6")
+		)
+		(pin "7"
+			(uuid "bd34afb1-e83c-4134-b33d-77e5e1543fc4")
+		)
+		(pin "9"
+			(uuid "b0746f6b-e074-4c75-883b-926ea64f342f")
+		)
+		(pin "10"
+			(uuid "2ac777ad-77e1-403f-a781-8cede80c30bf")
+		)
+		(pin "5"
+			(uuid "fd667755-323e-4fd4-888a-926f6f27981a")
+		)
+		(pin "3"
+			(uuid "7288aff1-ed9f-4eee-b105-a3dd5884d80c")
+		)
+		(pin "8"
+			(uuid "448355d6-81e1-4234-9a82-80d390e722cc")
+		)
+		(pin "2"
+			(uuid "a019cefa-a6d1-4bc0-b03c-a2a97b7fb580")
+		)
+		(pin "1"
+			(uuid "3d75d117-18cc-45af-a8b8-d99ac1395dce")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "U13")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
 		(at 99.06 104.14 0)
 		(unit 3)
 		(body_style 1)
@@ -598,52 +832,400 @@
 			)
 		)
 		(pin "8"
-			(uuid "1b989bff-65f9-45dd-84b2-97706f670791")
+			(uuid "1b989bff-65f9-45dd-84b2-97706f670792")
 		)
 		(pin "3"
-			(uuid "101db281-d36e-4c85-81d0-69e7b54ec11b")
+			(uuid "101db281-d36e-4c85-81d0-69e7b54ec11c")
 		)
 		(pin "2"
-			(uuid "c0ad7b5d-24eb-4ca4-ac27-8506fcc38402")
+			(uuid "c0ad7b5d-24eb-4ca4-ac27-8506fcc38403")
 		)
 		(pin "1"
-			(uuid "f15e6221-c513-4095-87f5-1d30a143e3f5")
+			(uuid "f15e6221-c513-4095-87f5-1d30a143e3f6")
 		)
 		(pin "9"
-			(uuid "b80b5a5f-e263-4b70-b320-ce907ee90c3d")
+			(uuid "b80b5a5f-e263-4b70-b320-ce907ee90c3e")
 		)
 		(pin "6"
-			(uuid "c1830586-5924-479f-b874-cf34dbdf1d54")
+			(uuid "c1830586-5924-479f-b874-cf34dbdf1d55")
 		)
 		(pin "5"
-			(uuid "228c701a-1d03-4182-9dbe-a27e7177567a")
+			(uuid "228c701a-1d03-4182-9dbe-a27e7177567b")
 		)
 		(pin "7"
-			(uuid "ba8f7b4d-0dc5-488f-b73e-8a198bb55c0e")
+			(uuid "ba8f7b4d-0dc5-488f-b73e-8a198bb55c0f")
 		)
 		(pin "10"
-			(uuid "c80f1641-1538-4efc-a1c4-f0807b056371")
+			(uuid "c80f1641-1538-4efc-a1c4-f0807b056372")
 		)
 		(pin "13"
-			(uuid "0be1f0a6-3805-48e5-b370-4e25c228416a")
+			(uuid "0be1f0a6-3805-48e5-b370-4e25c228416b")
 		)
 		(pin "11"
-			(uuid "f353bdca-0400-4595-98fe-3d53d913bec6")
+			(uuid "f353bdca-0400-4595-98fe-3d53d913bec7")
 		)
 		(pin "14"
-			(uuid "704a8ff3-604e-4d6e-af72-56347efa1ff3")
+			(uuid "704a8ff3-604e-4d6e-af72-56347efa1ff4")
 		)
 		(pin "12"
-			(uuid "0d8dbf88-01d6-4bed-b06a-9ceba70051b1")
+			(uuid "0d8dbf88-01d6-4bed-b06a-9ceba70051b2")
 		)
 		(pin "4"
-			(uuid "6234f6be-68a4-45e9-b959-e5f4aa596f20")
+			(uuid "6234f6be-68a4-45e9-b959-e5f4aa596f21")
 		)
 		(instances
 			(project "synth-allmodules"
 				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
 					(reference "U12")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 228.6 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61754958-1a79-4ace-a2b0-2207163051ec")
+		(property "Reference" "U13"
+			(at 228.6 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 228.6 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 229.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 228.6 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "d8330185-ae86-4819-816a-d6627e72003c")
+		)
+		(pin "4"
+			(uuid "2b54b019-1c17-48fc-ad34-1788aebbcc11")
+		)
+		(pin "14"
+			(uuid "5a35f01c-89fe-4ad6-80a3-d579e3532b67")
+		)
+		(pin "13"
+			(uuid "e13071ba-9baa-445e-bd06-6a403146f8d3")
+		)
+		(pin "12"
+			(uuid "93141f30-d6c5-4115-8d93-dda73699cf33")
+		)
+		(pin "6"
+			(uuid "8c692e2c-03b2-4c63-9bdc-0c1b4db02cf6")
+		)
+		(pin "7"
+			(uuid "bd34afb1-e83c-4134-b33d-77e5e1543fc4")
+		)
+		(pin "9"
+			(uuid "b0746f6b-e074-4c75-883b-926ea64f342f")
+		)
+		(pin "10"
+			(uuid "2ac777ad-77e1-403f-a781-8cede80c30bf")
+		)
+		(pin "5"
+			(uuid "fd667755-323e-4fd4-888a-926f6f27981a")
+		)
+		(pin "3"
+			(uuid "7288aff1-ed9f-4eee-b105-a3dd5884d80c")
+		)
+		(pin "8"
+			(uuid "448355d6-81e1-4234-9a82-80d390e722cc")
+		)
+		(pin "2"
+			(uuid "a019cefa-a6d1-4bc0-b03c-a2a97b7fb580")
+		)
+		(pin "1"
+			(uuid "3d75d117-18cc-45af-a8b8-d99ac1395dce")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 228.6 82.55 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81ff675a-739a-4571-ac62-266e0bc4e54e")
+		(property "Reference" "U13"
+			(at 228.6 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 228.6 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 229.87 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 228.6 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "d8330185-ae86-4819-816a-d6627e72003c")
+		)
+		(pin "4"
+			(uuid "2b54b019-1c17-48fc-ad34-1788aebbcc11")
+		)
+		(pin "14"
+			(uuid "5a35f01c-89fe-4ad6-80a3-d579e3532b67")
+		)
+		(pin "13"
+			(uuid "e13071ba-9baa-445e-bd06-6a403146f8d3")
+		)
+		(pin "12"
+			(uuid "93141f30-d6c5-4115-8d93-dda73699cf33")
+		)
+		(pin "6"
+			(uuid "8c692e2c-03b2-4c63-9bdc-0c1b4db02cf6")
+		)
+		(pin "7"
+			(uuid "bd34afb1-e83c-4134-b33d-77e5e1543fc4")
+		)
+		(pin "9"
+			(uuid "b0746f6b-e074-4c75-883b-926ea64f342f")
+		)
+		(pin "10"
+			(uuid "2ac777ad-77e1-403f-a781-8cede80c30bf")
+		)
+		(pin "5"
+			(uuid "fd667755-323e-4fd4-888a-926f6f27981a")
+		)
+		(pin "3"
+			(uuid "7288aff1-ed9f-4eee-b105-a3dd5884d80c")
+		)
+		(pin "8"
+			(uuid "448355d6-81e1-4234-9a82-80d390e722cc")
+		)
+		(pin "2"
+			(uuid "a019cefa-a6d1-4bc0-b03c-a2a97b7fb580")
+		)
+		(pin "1"
+			(uuid "3d75d117-18cc-45af-a8b8-d99ac1395dce")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "U13")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 229.87 67.31 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8282185a-f5ec-4c67-8e5a-5acc4a94ee3d")
+		(property "Reference" "U13"
+			(at 229.87 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 229.87 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 231.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 229.87 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "d8330185-ae86-4819-816a-d6627e72003c")
+		)
+		(pin "4"
+			(uuid "2b54b019-1c17-48fc-ad34-1788aebbcc11")
+		)
+		(pin "14"
+			(uuid "5a35f01c-89fe-4ad6-80a3-d579e3532b67")
+		)
+		(pin "13"
+			(uuid "e13071ba-9baa-445e-bd06-6a403146f8d3")
+		)
+		(pin "12"
+			(uuid "93141f30-d6c5-4115-8d93-dda73699cf33")
+		)
+		(pin "6"
+			(uuid "8c692e2c-03b2-4c63-9bdc-0c1b4db02cf6")
+		)
+		(pin "7"
+			(uuid "bd34afb1-e83c-4134-b33d-77e5e1543fc4")
+		)
+		(pin "9"
+			(uuid "b0746f6b-e074-4c75-883b-926ea64f342f")
+		)
+		(pin "10"
+			(uuid "2ac777ad-77e1-403f-a781-8cede80c30bf")
+		)
+		(pin "5"
+			(uuid "fd667755-323e-4fd4-888a-926f6f27981a")
+		)
+		(pin "3"
+			(uuid "7288aff1-ed9f-4eee-b105-a3dd5884d80c")
+		)
+		(pin "8"
+			(uuid "448355d6-81e1-4234-9a82-80d390e722cc")
+		)
+		(pin "2"
+			(uuid "a019cefa-a6d1-4bc0-b03c-a2a97b7fb580")
+		)
+		(pin "1"
+			(uuid "3d75d117-18cc-45af-a8b8-d99ac1395dce")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "U13")
+					(unit 2)
 				)
 			)
 		)
@@ -714,46 +1296,46 @@
 			)
 		)
 		(pin "8"
-			(uuid "1b989bff-65f9-45dd-84b2-97706f670791")
+			(uuid "1b989bff-65f9-45dd-84b2-97706f670793")
 		)
 		(pin "3"
-			(uuid "101db281-d36e-4c85-81d0-69e7b54ec11b")
+			(uuid "101db281-d36e-4c85-81d0-69e7b54ec11d")
 		)
 		(pin "2"
-			(uuid "c0ad7b5d-24eb-4ca4-ac27-8506fcc38402")
+			(uuid "c0ad7b5d-24eb-4ca4-ac27-8506fcc38404")
 		)
 		(pin "1"
-			(uuid "f15e6221-c513-4095-87f5-1d30a143e3f5")
+			(uuid "f15e6221-c513-4095-87f5-1d30a143e3f7")
 		)
 		(pin "9"
-			(uuid "b80b5a5f-e263-4b70-b320-ce907ee90c3d")
+			(uuid "b80b5a5f-e263-4b70-b320-ce907ee90c3f")
 		)
 		(pin "6"
-			(uuid "c1830586-5924-479f-b874-cf34dbdf1d54")
+			(uuid "c1830586-5924-479f-b874-cf34dbdf1d56")
 		)
 		(pin "5"
-			(uuid "228c701a-1d03-4182-9dbe-a27e7177567a")
+			(uuid "228c701a-1d03-4182-9dbe-a27e7177567c")
 		)
 		(pin "7"
-			(uuid "ba8f7b4d-0dc5-488f-b73e-8a198bb55c0e")
+			(uuid "ba8f7b4d-0dc5-488f-b73e-8a198bb55c10")
 		)
 		(pin "10"
-			(uuid "c80f1641-1538-4efc-a1c4-f0807b056371")
+			(uuid "c80f1641-1538-4efc-a1c4-f0807b056373")
 		)
 		(pin "13"
-			(uuid "0be1f0a6-3805-48e5-b370-4e25c228416a")
+			(uuid "0be1f0a6-3805-48e5-b370-4e25c228416c")
 		)
 		(pin "11"
-			(uuid "f353bdca-0400-4595-98fe-3d53d913bec6")
+			(uuid "f353bdca-0400-4595-98fe-3d53d913bec8")
 		)
 		(pin "14"
-			(uuid "704a8ff3-604e-4d6e-af72-56347efa1ff3")
+			(uuid "704a8ff3-604e-4d6e-af72-56347efa1ff5")
 		)
 		(pin "12"
-			(uuid "0d8dbf88-01d6-4bed-b06a-9ceba70051b1")
+			(uuid "0d8dbf88-01d6-4bed-b06a-9ceba70051b3")
 		)
 		(pin "4"
-			(uuid "6234f6be-68a4-45e9-b959-e5f4aa596f20")
+			(uuid "6234f6be-68a4-45e9-b959-e5f4aa596f22")
 		)
 		(instances
 			(project "synth-allmodules"
@@ -830,46 +1412,46 @@
 			)
 		)
 		(pin "8"
-			(uuid "1b989bff-65f9-45dd-84b2-97706f670791")
+			(uuid "1b989bff-65f9-45dd-84b2-97706f670794")
 		)
 		(pin "3"
-			(uuid "101db281-d36e-4c85-81d0-69e7b54ec11b")
+			(uuid "101db281-d36e-4c85-81d0-69e7b54ec11e")
 		)
 		(pin "2"
-			(uuid "c0ad7b5d-24eb-4ca4-ac27-8506fcc38402")
+			(uuid "c0ad7b5d-24eb-4ca4-ac27-8506fcc38405")
 		)
 		(pin "1"
-			(uuid "f15e6221-c513-4095-87f5-1d30a143e3f5")
+			(uuid "f15e6221-c513-4095-87f5-1d30a143e3f8")
 		)
 		(pin "9"
-			(uuid "b80b5a5f-e263-4b70-b320-ce907ee90c3d")
+			(uuid "b80b5a5f-e263-4b70-b320-ce907ee90c40")
 		)
 		(pin "6"
-			(uuid "c1830586-5924-479f-b874-cf34dbdf1d54")
+			(uuid "c1830586-5924-479f-b874-cf34dbdf1d57")
 		)
 		(pin "5"
-			(uuid "228c701a-1d03-4182-9dbe-a27e7177567a")
+			(uuid "228c701a-1d03-4182-9dbe-a27e7177567d")
 		)
 		(pin "7"
-			(uuid "ba8f7b4d-0dc5-488f-b73e-8a198bb55c0e")
+			(uuid "ba8f7b4d-0dc5-488f-b73e-8a198bb55c11")
 		)
 		(pin "10"
-			(uuid "c80f1641-1538-4efc-a1c4-f0807b056371")
+			(uuid "c80f1641-1538-4efc-a1c4-f0807b056374")
 		)
 		(pin "13"
-			(uuid "0be1f0a6-3805-48e5-b370-4e25c228416a")
+			(uuid "0be1f0a6-3805-48e5-b370-4e25c228416d")
 		)
 		(pin "11"
-			(uuid "f353bdca-0400-4595-98fe-3d53d913bec6")
+			(uuid "f353bdca-0400-4595-98fe-3d53d913bec9")
 		)
 		(pin "14"
-			(uuid "704a8ff3-604e-4d6e-af72-56347efa1ff3")
+			(uuid "704a8ff3-604e-4d6e-af72-56347efa1ff6")
 		)
 		(pin "12"
-			(uuid "0d8dbf88-01d6-4bed-b06a-9ceba70051b1")
+			(uuid "0d8dbf88-01d6-4bed-b06a-9ceba70051b4")
 		)
 		(pin "4"
-			(uuid "6234f6be-68a4-45e9-b959-e5f4aa596f20")
+			(uuid "6234f6be-68a4-45e9-b959-e5f4aa596f23")
 		)
 		(instances
 			(project "synth-allmodules"
@@ -946,46 +1528,46 @@
 			)
 		)
 		(pin "8"
-			(uuid "1b989bff-65f9-45dd-84b2-97706f670791")
+			(uuid "1b989bff-65f9-45dd-84b2-97706f670795")
 		)
 		(pin "3"
-			(uuid "101db281-d36e-4c85-81d0-69e7b54ec11b")
+			(uuid "101db281-d36e-4c85-81d0-69e7b54ec11f")
 		)
 		(pin "2"
-			(uuid "c0ad7b5d-24eb-4ca4-ac27-8506fcc38402")
+			(uuid "c0ad7b5d-24eb-4ca4-ac27-8506fcc38406")
 		)
 		(pin "1"
-			(uuid "f15e6221-c513-4095-87f5-1d30a143e3f5")
+			(uuid "f15e6221-c513-4095-87f5-1d30a143e3f9")
 		)
 		(pin "9"
-			(uuid "b80b5a5f-e263-4b70-b320-ce907ee90c3d")
+			(uuid "b80b5a5f-e263-4b70-b320-ce907ee90c41")
 		)
 		(pin "6"
-			(uuid "c1830586-5924-479f-b874-cf34dbdf1d54")
+			(uuid "c1830586-5924-479f-b874-cf34dbdf1d58")
 		)
 		(pin "5"
-			(uuid "228c701a-1d03-4182-9dbe-a27e7177567a")
+			(uuid "228c701a-1d03-4182-9dbe-a27e7177567e")
 		)
 		(pin "7"
-			(uuid "ba8f7b4d-0dc5-488f-b73e-8a198bb55c0e")
+			(uuid "ba8f7b4d-0dc5-488f-b73e-8a198bb55c12")
 		)
 		(pin "10"
-			(uuid "c80f1641-1538-4efc-a1c4-f0807b056371")
+			(uuid "c80f1641-1538-4efc-a1c4-f0807b056375")
 		)
 		(pin "13"
-			(uuid "0be1f0a6-3805-48e5-b370-4e25c228416a")
+			(uuid "0be1f0a6-3805-48e5-b370-4e25c228416e")
 		)
 		(pin "11"
-			(uuid "f353bdca-0400-4595-98fe-3d53d913bec6")
+			(uuid "f353bdca-0400-4595-98fe-3d53d913beca")
 		)
 		(pin "14"
-			(uuid "704a8ff3-604e-4d6e-af72-56347efa1ff3")
+			(uuid "704a8ff3-604e-4d6e-af72-56347efa1ff7")
 		)
 		(pin "12"
-			(uuid "0d8dbf88-01d6-4bed-b06a-9ceba70051b1")
+			(uuid "0d8dbf88-01d6-4bed-b06a-9ceba70051b5")
 		)
 		(pin "4"
-			(uuid "6234f6be-68a4-45e9-b959-e5f4aa596f20")
+			(uuid "6234f6be-68a4-45e9-b959-e5f4aa596f24")
 		)
 		(instances
 			(project "synth-allmodules"
