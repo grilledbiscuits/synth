@@ -2526,6 +2526,12 @@
 		(uuid "405fed0b-57a4-4b73-9987-aa909bffd1f3")
 	)
 	(junction
+		(at 151.13 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45f28b6a-7bd4-4c2d-9689-039393b4578e")
+	)
+	(junction
 		(at 53.34 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2548,6 +2554,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72184fd1-0897-4331-88d3-ebf0eff14ed2")
+	)
+	(junction
+		(at 227.33 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dda3d4c-613e-41b1-a61a-7ffe279715ce")
 	)
 	(junction
 		(at 53.34 39.37)
@@ -2610,6 +2622,12 @@
 		(uuid "ca8fcfe9-a99e-49a1-b89e-216eb4d523be")
 	)
 	(junction
+		(at 151.13 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0749568-344f-42a8-9d24-6e3a7b4f02be")
+	)
+	(junction
 		(at 200.66 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2620,6 +2638,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb259088-8a84-46ad-bb25-402406580670")
+	)
+	(wire
+		(pts
+			(xy 227.33 22.86) (xy 227.33 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f79140-faf1-4236-b77f-88e435c62472")
 	)
 	(wire
 		(pts
@@ -2920,6 +2948,26 @@
 			(type default)
 		)
 		(uuid "43df00af-6a62-4e53-aec6-f2e006628e75")
+	)
+	(wire
+		(pts
+			(xy 59.69 22.86) (xy 151.13 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453d0a5b-dcfa-463b-a790-310f4ac3a483")
+	)
+	(wire
+		(pts
+			(xy 151.13 22.86) (xy 151.13 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ed5b55-f584-49c5-a719-8a66af03203b")
 	)
 	(wire
 		(pts
@@ -3413,6 +3461,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 22.86) (xy 237.49 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b653a5d8-19d7-4c64-b1f0-07cad7d94989")
+	)
+	(wire
+		(pts
 			(xy 151.13 76.2) (xy 151.13 80.01)
 		)
 		(stroke
@@ -3710,6 +3768,16 @@
 			(type default)
 		)
 		(uuid "ef0ce8eb-3352-475c-ad79-9986474586c2")
+	)
+	(wire
+		(pts
+			(xy 151.13 22.86) (xy 227.33 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe84649-7a48-4135-a87d-3905359f83e9")
 	)
 	(wire
 		(pts
@@ -10938,6 +11006,84 @@
 			(project "synth-allmodules"
 				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
 					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 237.49 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3c3ebea-7e86-4e60-9712-3bb2a07db651")
+		(property "Reference" "#PWR0105"
+			(at 237.49 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 237.49 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 237.49 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ca084ab-aaa5-4067-87d2-874d5b875616")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
