@@ -2393,6 +2393,16 @@
 		)
 		(uuid "097cba69-f585-4cfe-875e-b7c096b5bdae")
 	)
+	(text "Shape"
+		(exclude_from_sim no)
+		(at 103.886 113.538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0dc26775-5742-4cb5-8846-eb68e169f8da")
+	)
 	(text "Integrator"
 		(exclude_from_sim no)
 		(at 140.97 42.926 0)
@@ -2402,6 +2412,16 @@
 			)
 		)
 		(uuid "0e38e77a-a360-48a5-967f-20f1bb76ec0e")
+	)
+	(text "var"
+		(exclude_from_sim no)
+		(at 233.172 110.236 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "111b131b-6046-448b-bceb-3d68f780f9c1")
 	)
 	(text "Speed"
 		(exclude_from_sim no)
@@ -2413,6 +2433,16 @@
 		)
 		(uuid "1ea558fd-8410-494c-9535-7fbb896ef72a")
 	)
+	(text "Var out"
+		(exclude_from_sim no)
+		(at 271.78 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24e31186-9570-4896-a64a-23a27a0370c4")
+	)
 	(text "Tri/saw out"
 		(exclude_from_sim no)
 		(at 150.114 65.278 0)
@@ -2422,6 +2452,26 @@
 			)
 		)
 		(uuid "27ce9246-3abd-408b-a29a-dd4ce8901d43")
+	)
+	(text "Square out"
+		(exclude_from_sim no)
+		(at 222.504 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "27d86ae4-2044-477e-a0eb-101c827c9747")
+	)
+	(text "Pulse out"
+		(exclude_from_sim no)
+		(at 56.896 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3df970a9-626a-40f6-a0e6-1be4826be32b")
 	)
 	(text "Var out"
 		(exclude_from_sim no)
@@ -2442,6 +2492,26 @@
 			)
 		)
 		(uuid "447c2006-86d1-4b52-9e9d-bf35f7def070")
+	)
+	(text "Speed"
+		(exclude_from_sim no)
+		(at 69.85 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4db1b1d9-d44c-488e-9459-d00fb5e40590")
+	)
+	(text "Comparator (tri to square)"
+		(exclude_from_sim no)
+		(at 175.006 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e384bf2-968d-4455-baf6-219c5db7ab54")
 	)
 	(text "Pulse out"
 		(exclude_from_sim no)
@@ -2465,6 +2535,16 @@
 	)
 	(text "Schmitt"
 		(exclude_from_sim no)
+		(at 44.704 135.636 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9fa63528-2c47-4ae5-99ec-a39bb2e4c985")
+	)
+	(text "Schmitt"
+		(exclude_from_sim no)
 		(at 40.64 57.912 0)
 		(effects
 			(font
@@ -2472,6 +2552,16 @@
 			)
 		)
 		(uuid "ad493e47-223f-4324-9156-6439a0c5f6b8")
+	)
+	(text "Integrator"
+		(exclude_from_sim no)
+		(at 141.986 117.094 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb17497e-08cb-4881-9fad-a4f01949fefe")
 	)
 	(text "Shape"
 		(exclude_from_sim no)
@@ -2482,6 +2572,16 @@
 			)
 		)
 		(uuid "c72c8cd6-b3a5-451b-8dcd-eca450fc276d")
+	)
+	(text "Tri/saw out"
+		(exclude_from_sim no)
+		(at 151.13 138.176 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "feb1e2c1-8a34-41a0-a027-e4d0965d26e9")
 	)
 	(junction
 		(at 111.76 153.67)
