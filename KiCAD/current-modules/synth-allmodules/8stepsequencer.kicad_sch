@@ -4257,7 +4257,7 @@
 		)
 		(uuid "310ffc91-04e1-494d-8506-c8fd529ac94c")
 	)
-	(text "output"
+	(text "OUT"
 		(exclude_from_sim no)
 		(at 70.612 17.272 0)
 		(effects
