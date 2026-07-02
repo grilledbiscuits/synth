@@ -4332,7 +4332,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 222.25 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4786,7 +4786,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100K"
 			(at 180.34 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5355,7 +5355,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100K"
 			(at 200.66 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5903,7 +5903,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" "100K lin"
 			(at 224.79 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6338,7 +6338,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 256.54 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6420,7 +6420,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "33K"
 			(at 205.74 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8612,7 +8612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100u"
 			(at 238.76 53.7209 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9723,7 +9723,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 222.25 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9882,7 +9882,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100u"
 			(at 238.76 42.2909 0)
 			(show_name no)
 			(do_not_autoplace no)
