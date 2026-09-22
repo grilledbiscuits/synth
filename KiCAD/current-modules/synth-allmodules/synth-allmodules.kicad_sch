@@ -373,6 +373,52 @@
 			)
 		)
 	)
+	(sheet
+		(at 101.6 50.8)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c58b675b-7a41-4a85-8873-b246ddc695bd")
+		(property "Sheetname" "808kick"
+			(at 101.6 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "808kick.kicad_sch"
+			(at 101.6 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5"
+					(page "10")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
