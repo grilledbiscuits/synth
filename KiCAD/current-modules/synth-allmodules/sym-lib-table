@@ -1,0 +1,10 @@
+(sym_lib_table
+	(version 7)
+	(lib
+		(name "VCO_EasyEDA")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/VCO-libs/VCO_EasyEDA.kicad_sym")
+		(options "")
+		(descr "LF442ACN from EasyEDA C6286145")
+	)
+)
