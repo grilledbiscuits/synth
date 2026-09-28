@@ -2382,6 +2382,117 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default))
+					(fill
+						(type none)))
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)))))
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27))))))
+			(embedded_fonts no))
 	)
 	(text "var"
 		(exclude_from_sim no)
@@ -2433,66 +2544,6 @@
 		)
 		(uuid "1ea558fd-8410-494c-9535-7fbb896ef72a")
 	)
-	(text "Var out"
-		(exclude_from_sim no)
-		(at 271.78 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "24e31186-9570-4896-a64a-23a27a0370c4")
-	)
-	(text "Tri/saw out"
-		(exclude_from_sim no)
-		(at 150.114 65.278 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "27ce9246-3abd-408b-a29a-dd4ce8901d43")
-	)
-	(text "Square out"
-		(exclude_from_sim no)
-		(at 222.504 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "27d86ae4-2044-477e-a0eb-101c827c9747")
-	)
-	(text "Pulse out"
-		(exclude_from_sim no)
-		(at 56.896 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3df970a9-626a-40f6-a0e6-1be4826be32b")
-	)
-	(text "Var out"
-		(exclude_from_sim no)
-		(at 264.16 79.502 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "446d2613-39e8-4192-be0f-021b25b49c66")
-	)
-	(text "Square out"
-		(exclude_from_sim no)
-		(at 221.996 63.754 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "447c2006-86d1-4b52-9e9d-bf35f7def070")
-	)
 	(text "Speed"
 		(exclude_from_sim no)
 		(at 69.85 124.46 0)
@@ -2512,16 +2563,6 @@
 			)
 		)
 		(uuid "4e384bf2-968d-4455-baf6-219c5db7ab54")
-	)
-	(text "Pulse out"
-		(exclude_from_sim no)
-		(at 53.34 66.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6d7b1188-ad80-4f28-8929-302640ae7709")
 	)
 	(text "Comparator (tri to square)"
 		(exclude_from_sim no)
@@ -2572,16 +2613,6 @@
 			)
 		)
 		(uuid "c72c8cd6-b3a5-451b-8dcd-eca450fc276d")
-	)
-	(text "Tri/saw out"
-		(exclude_from_sim no)
-		(at 151.13 138.176 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "feb1e2c1-8a34-41a0-a027-e4d0965d26e9")
 	)
 	(junction
 		(at 111.76 153.67)
@@ -12773,5 +12804,1553 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 38.1 69.85 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "783720ec-e3be-4224-b7b2-3790f88f96c5")
+		(property "Reference" "J20"
+			(at 40.005 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "PULSE_1"
+			(at 39.37 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 38.1 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Panel jack wiring header (pin 1 signal, pin 2 ground)"
+			(at 38.1 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2428c3f-fee8-488e-87cc-4d705a334b8c")
+		)
+		(pin "2"
+			(uuid "8727cc73-5535-4027-b537-2821cc4b5b76")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 53.34 69.85) (xy 43.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf41eb20-0697-4fe7-816d-b3a274c56f39")
+	)
+	(junction
+		(at 53.34 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf9030ae-29ca-46f2-b85f-4873dbd66a75")
+	)
+	(wire
+		(pts
+			(xy 43.18 72.39) (xy 45.72 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69865318-b299-43fe-822f-1ec4f8133179")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be2de6ad-fda2-4ba4-8587-b8260cf079c0")
+		(property "Reference" "#PWR0166"
+			(at 45.72 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0343a4e-3f3b-4b31-8fac-3c2bf107f122")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Pulse out"
+		(exclude_from_sim no)
+		(at 38.1 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "939e6ccb-5c50-4fc9-b7c8-b38a9378a99b")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 161.29 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55143adb-0b3f-4554-a073-9e6dd5a94d4b")
+		(property "Reference" "J21"
+			(at 159.385 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "TRI_SAW_1"
+			(at 164.465 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 161.29 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Panel jack wiring header (pin 1 signal, pin 2 ground)"
+			(at 161.29 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38359e8f-bc67-4903-88c3-38df541553e2")
+		)
+		(pin "2"
+			(uuid "6690388f-1083-4dad-a3da-47b21d01a2ea")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 151.13 62.23) (xy 156.21 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76bc326c-b996-4c7a-bc20-6eb348766e05")
+	)
+	(junction
+		(at 151.13 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e262958-1b4a-4438-93be-8bd42e8a9c8d")
+	)
+	(wire
+		(pts
+			(xy 156.21 64.77) (xy 153.67 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492fbd74-137d-481f-9ced-3124fbe9f87d")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1d71a6b-094c-4dc8-a9b7-a18fe66c025d")
+		(property "Reference" "#PWR0167"
+			(at 153.67 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5064a667-878b-4dec-8272-e1468ccf2ba2")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "#PWR0167")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Tri/saw out"
+		(exclude_from_sim no)
+		(at 163.83 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51e6519d-eed2-445c-ba90-35c86c991ca9")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 212.09 66.04 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22dd9c9e-bdf0-443a-91e6-bac96f4afe42")
+		(property "Reference" "J22"
+			(at 213.995 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "SQUARE_1"
+			(at 210.82 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 212.09 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Panel jack wiring header (pin 1 signal, pin 2 ground)"
+			(at 212.09 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4fb45019-2ddd-40e5-ba85-7bce7d4b907c")
+		)
+		(pin "2"
+			(uuid "bf254bd2-9a0e-4b8c-81d6-5212de78bc98")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 222.25 60.96) (xy 220.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae676c24-8bf1-49b4-a0fa-700356a7cc0f")
+	)
+	(wire
+		(pts
+			(xy 220.98 60.96) (xy 220.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeec16e4-2ff3-47fc-8d70-ac23d102e106")
+	)
+	(wire
+		(pts
+			(xy 220.98 66.04) (xy 217.17 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8c8dc4-a242-401d-ac1f-5160b5b5a50a")
+	)
+	(junction
+		(at 222.25 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6ea8d6d-a751-4903-a133-75ef3ad89f6d")
+	)
+	(wire
+		(pts
+			(xy 217.17 68.58) (xy 218.44 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e68eb262-b09b-4f29-b9ce-2a6f3b5ef977")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf47ae68-5175-4388-9949-3531bc970bca")
+		(property "Reference" "#PWR0168"
+			(at 218.44 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcca141f-80ac-4c23-86f0-cd2d36e64ece")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Square out"
+		(exclude_from_sim no)
+		(at 212.09 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67649fa4-67cd-4415-b7ac-c8263340bca3")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 257.81 83.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "892ad4fa-e287-4610-905c-6a8d8eef1cac")
+		(property "Reference" "J23"
+			(at 264.16 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "VAR_1"
+			(at 264.16 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 257.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Panel jack wiring header (pin 1 signal, pin 2 ground)"
+			(at 257.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7abc4cc8-09be-4b0c-8fcf-fe860ab57878")
+		)
+		(pin "2"
+			(uuid "1ccbf0ec-431c-49b2-8365-315cb554018c")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 255.27 78.74) (xy 251.46 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a50911-62e9-4c74-89b2-6d72d1a16a08")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa998e33-c5f4-4d45-9b94-6be4fbed2b71")
+		(property "Reference" "#PWR0169"
+			(at 251.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbe1f282-4f00-4272-9bb3-42c21364be01")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Var out"
+		(exclude_from_sim no)
+		(at 257.81 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bcf12134-a1bc-4f92-8fb1-57e3657ca9cc")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 40.64 142.24 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67e621d3-21fe-41d2-953e-47774bf164ae")
+		(property "Reference" "J24"
+			(at 42.545 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "PULSE_2"
+			(at 41.91 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 40.64 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Panel jack wiring header (pin 1 signal, pin 2 ground)"
+			(at 40.64 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed3289aa-c286-4ff6-8968-8120f06dd974")
+		)
+		(pin "2"
+			(uuid "b58bf580-ea77-4c1e-a24c-39340184e00a")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 55.88 142.24) (xy 45.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "113bc525-ff5c-4ce2-baf4-e372145c1f7c")
+	)
+	(junction
+		(at 55.88 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9581a385-cf66-4ec7-93ad-d923a98ef671")
+	)
+	(wire
+		(pts
+			(xy 45.72 144.78) (xy 48.26 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8740bab-3217-402d-8c99-4fb98b407ff0")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "437c5ad7-b6be-486c-9673-bafee156dd4f")
+		(property "Reference" "#PWR0170"
+			(at 48.26 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c4bdd9b-7cd0-43f9-9c7a-4a79ea7d695e")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Pulse out"
+		(exclude_from_sim no)
+		(at 40.64 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4b7a565-e791-4809-996d-1e1c333b593d")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 161.29 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e81f289-5f4b-4cfb-b4ea-4053ae9210d6")
+		(property "Reference" "J25"
+			(at 159.385 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "TRI_SAW_2"
+			(at 164.465 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 161.29 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Panel jack wiring header (pin 1 signal, pin 2 ground)"
+			(at 161.29 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92def5fe-0f94-4e1a-8368-2b0b8c9861b2")
+		)
+		(pin "2"
+			(uuid "9f2959bd-ddd2-47c2-ac90-3823e1d85226")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 151.13 134.62) (xy 156.21 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70ab79c-a1b1-435f-8e05-dc036ccb3c33")
+	)
+	(junction
+		(at 151.13 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8199721c-8ed8-45ac-9223-aae556922e2f")
+	)
+	(wire
+		(pts
+			(xy 156.21 137.16) (xy 153.67 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c064c1-45e0-4d8f-8cf5-12d6a3a2c587")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "78ac7f36-994f-4037-ae7b-e8b668dd2ae6")
+		(property "Reference" "#PWR0171"
+			(at 153.67 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b9e0f55-56b3-4ff3-a542-e76849a7db8b")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Tri/saw out"
+		(exclude_from_sim no)
+		(at 163.83 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06d9721f-5bfa-4fc4-b6a1-b1fbef25cc4f")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 212.09 138.43 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "637f820f-e19a-41fd-baaa-681e719dac70")
+		(property "Reference" "J26"
+			(at 213.995 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "SQUARE_2"
+			(at 210.82 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 212.09 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Panel jack wiring header (pin 1 signal, pin 2 ground)"
+			(at 212.09 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "503a7306-f697-4af1-8598-b846a137b455")
+		)
+		(pin "2"
+			(uuid "506270ef-5ed2-42b0-8ca3-d8f2b2ba58c1")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 222.25 133.35) (xy 220.98 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a43a0f-8316-4f29-89f9-9275a089dbc3")
+	)
+	(wire
+		(pts
+			(xy 220.98 133.35) (xy 220.98 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19f1f03-b49c-4d13-9bc6-67becea6cb04")
+	)
+	(wire
+		(pts
+			(xy 220.98 138.43) (xy 217.17 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2a9ba4-984c-421b-9224-2d348ece0f8c")
+	)
+	(junction
+		(at 222.25 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fa248ec-30f9-4e63-8da1-5edc931e661b")
+	)
+	(wire
+		(pts
+			(xy 217.17 140.97) (xy 218.44 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d15a0f-4b9f-4774-883f-e5b167e213fd")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f042b67f-b0ba-42ce-b31c-d5abf57f36cd")
+		(property "Reference" "#PWR0172"
+			(at 218.44 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "887ab958-4854-43ea-a504-d63a75a7d09c")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Square out"
+		(exclude_from_sim no)
+		(at 212.09 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9bedef4c-85f6-4668-a87f-fa2ec177ab66")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 265.43 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3458ef7-2d06-4bc1-ac6c-12517e808e9f")
+		(property "Reference" "J27"
+			(at 271.78 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "VAR_2"
+			(at 271.78 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 265.43 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Panel jack wiring header (pin 1 signal, pin 2 ground)"
+			(at 265.43 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c7b9c98-fe70-4937-949b-82e47c26cc6b")
+		)
+		(pin "2"
+			(uuid "11de9445-e5ee-4ad1-9d5b-5a4494865127")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 262.89 146.05) (xy 259.08 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0593078f-dc35-4c8b-ac63-77e19cf5fbef")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a09d9ff-8af0-4450-8ae0-3ee2e49726d3")
+		(property "Reference" "#PWR0173"
+			(at 259.08 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7907e86-65d1-4f28-ac74-61f6dca20a35")
+		)
+		(instances
+			(project "synth-allmodules"
+				(path "/f3152922-b7ee-45aa-a88a-669787bc63c5/57297c67-a21a-4420-a1b2-76a0b3559e30"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Var out"
+		(exclude_from_sim no)
+		(at 265.43 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f959ee01-e7f7-4675-a068-947d1ea71233")
 	)
 )
